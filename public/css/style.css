@@ -109,7 +109,7 @@ html{
 }
 
 .tempInformation{
-    width: 35rem;
+    width: 30rem;
     margin: auto;
     min-height: 20rem;
     background-color: #323544;
@@ -196,7 +196,7 @@ footer p{
 }
 
 .temp_form{
-    width: 60%;
+    width: 100%;
     position: relative;
     margin: 3rem auto 6rem ;
 }
