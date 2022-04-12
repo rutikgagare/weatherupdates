@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+    <title>Weather Predictor</title>
+</head>
+
+<body>
+     {{>navbar}}
+
+    <div class="main">
+        <!-- <nav>
+            <div class="logo">
+                <h3> <i class="fas fa-snowflake"></i> WeatherPredictor <i class="fas fa-snowflake"></i></h3>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/weather">Weather</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav> -->
+
+        <div class="container">
+            <div class="left">
+                <p>Welcome to weather app</p>
+                <h1>Get The Latest <span>Weather</span> Info Of Your City</h1>
+                <a href="/weather"><button>Check now</button></a>
+            </div>
+
+            <div class="right">
+                <img src="./Images/bg1.png" class="bg" alt="">
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
